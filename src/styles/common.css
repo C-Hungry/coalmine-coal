@@ -1,0 +1,58 @@
+body{
+  /* overflow: hidden; */
+}
+
+.business-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+ /* 针对状态使用 */
+.zk-success {
+  color: #83DA44;
+  background-color: #DBF4DC;
+}
+.zk-warning {
+  color: #F6B54D;
+  background-color: #FEEED3;
+}
+.zk-default {
+  color: #666;
+  background-color: #D9D9D9;
+}
+.zk-error {
+  color: #FC6565;
+  background-color: #FEE8E8;
+}
+
+.ivu-table .zk-table-summation-row td{
+  background-color: #f8f8f9;
+  color: #495060;
+  font-weight: bolder;
+}
+
+.ivu-form .ivu-form-item-label {
+  color: #aaa!important;
+}
+
+.zk-table__body-row,
+.ivu-table td, .ivu-table th {
+  height: 36px!important;
+}
+
+.zk-table__cell-inner {
+  padding: 6px 8px!important;
+}
+
+.ivu-table .ivu-table-cell {
+  padding: 0 8px;
+}
+
+.ivu-menu-vertical .ivu-menu-item, 
+.ivu-menu-vertical .ivu-menu-submenu-title {
+  padding: 12px 24px;
+}
